@@ -11,7 +11,9 @@ constructor(name, homeState, training){
 }
 }
 class Ceo extends BoardMember{
-  
+  hireEmployee(){
+    return 
+  }
   
 }
 let ceo = new Ceo("Mr. Ceo", "South Carolina", "business")
