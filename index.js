@@ -10,5 +10,5 @@ constructor(name, homeState, training){
   BoardMember.prototype.sayHi= function(){ return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`}
 }
 }
+let ceo = new Ceo("Mr. Ceo", "South Carolina", "business")
 let polishedBoardMember = new BoardMember('Polished', 'New York', 'law.');
-let backSlappingGene  = new BoardMember('Polished', 'New York', 'law.');
