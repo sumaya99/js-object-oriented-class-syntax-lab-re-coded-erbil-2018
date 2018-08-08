@@ -12,7 +12,7 @@ constructor(name, homeState, training){
 }
 class Ceo extends BoardMember{
   hireEmployee(){
-    return 
+    return 'Welcome aboard!'
   }
   
 }
